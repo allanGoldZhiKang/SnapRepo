@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B48709622F41D50000293D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48709522F41D50000293D2 /* AppDelegate.m */; };
+		4B48709922F41D50000293D2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48709822F41D50000293D2 /* MainViewController.m */; };
+		4B48709E22F41D52000293D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B48709D22F41D52000293D2 /* Assets.xcassets */; };
+		4B4870A122F41D52000293D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B48709F22F41D52000293D2 /* LaunchScreen.storyboard */; };
+		4B4870A422F41D52000293D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4870A322F41D52000293D2 /* main.m */; };
+		4B4870AE22F41D52000293D2 /* SnapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4870AD22F41D52000293D2 /* SnapTests.m */; };
+		4B4870B922F41D52000293D2 /* SnapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4870B822F41D52000293D2 /* SnapUITests.m */; };
+		4B4870C722F41DE1000293D2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870C622F41DE1000293D2 /* MainViewController.xib */; };
+		4B4870F022F41DF5000293D2 /* ExitButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870C922F41DF5000293D2 /* ExitButtonPressed@2x.png */; };
+		4B4870F122F41DF5000293D2 /* Felt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870CA22F41DF5000293D2 /* Felt@2x.png */; };
+		4B4870F222F41DF5000293D2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870CB22F41DF5000293D2 /* Icon.png */; };
+		4B4870F322F41DF5000293D2 /* CellBackgroundSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870CC22F41DF5000293D2 /* CellBackgroundSelected@2x.png */; };
+		4B4870F422F41DF5000293D2 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870CD22F41DF5000293D2 /* iTunesArtwork */; };
+		4B4870F522F41DF5000293D2 /* Logo N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870CE22F41DF5000293D2 /* Logo N@2x.png */; };
+		4B4870F622F41DF5000293D2 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870CF22F41DF5000293D2 /* Icon-Small.png */; };
+		4B4870F722F41DF5000293D2 /* ButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D022F41DF5000293D2 /* ButtonPressed@2x.png */; };
+		4B4870F822F41DF5000293D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D122F41DF5000293D2 /* Default@2x.png */; };
+		4B4870F922F41DF5000293D2 /* TableViewBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D222F41DF5000293D2 /* TableViewBorder.png */; };
+		4B4870FA22F41DF5000293D2 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D322F41DF5000293D2 /* Icon-Small-50@2x.png */; };
+		4B4870FB22F41DF5000293D2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D422F41DF5000293D2 /* Icon-72.png */; };
+		4B4870FC22F41DF5000293D2 /* ExitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D522F41DF5000293D2 /* ExitButton.png */; };
+		4B4870FD22F41DF5000293D2 /* TableViewBorder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D622F41DF5000293D2 /* TableViewBorder@2x.png */; };
+		4B4870FE22F41DF5000293D2 /* Logo N.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D722F41DF5000293D2 /* Logo N.png */; };
+		4B4870FF22F41DF5000293D2 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D822F41DF5000293D2 /* Icon-72@2x.png */; };
+		4B48710022F41DF5000293D2 /* Logo P@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870D922F41DF5000293D2 /* Logo P@2x.png */; };
+		4B48710122F41DF5000293D2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870DA22F41DF5000293D2 /* Icon@2x.png */; };
+		4B48710222F41DF5000293D2 /* Logo A@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870DB22F41DF5000293D2 /* Logo A@2x.png */; };
+		4B48710322F41DF5000293D2 /* Felt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870DC22F41DF5000293D2 /* Felt.png */; };
+		4B48710422F41DF5000293D2 /* ExitButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870DD22F41DF5000293D2 /* ExitButtonPressed.png */; };
+		4B48710522F41DF5000293D2 /* Logo A.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870DE22F41DF5000293D2 /* Logo A.png */; };
+		4B48710622F41DF5000293D2 /* Logo Joker.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870DF22F41DF5000293D2 /* Logo Joker.png */; };
+		4B48710722F41DF5000293D2 /* Logo S.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E022F41DF5000293D2 /* Logo S.png */; };
+		4B48710822F41DF5000293D2 /* TextField.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E122F41DF5000293D2 /* TextField.png */; };
+		4B48710922F41DF5000293D2 /* Logo P.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E222F41DF5000293D2 /* Logo P.png */; };
+		4B48710A22F41DF5000293D2 /* CellBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E322F41DF5000293D2 /* CellBackground@2x.png */; };
+		4B48710B22F41DF5000293D2 /* ButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E422F41DF5000293D2 /* ButtonPressed.png */; };
+		4B48710C22F41DF5000293D2 /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E522F41DF5000293D2 /* Button@2x.png */; };
+		4B48710D22F41DF5000293D2 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E622F41DF5000293D2 /* Icon-Small-50.png */; };
+		4B48710E22F41DF5000293D2 /* Logo S@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E722F41DF5000293D2 /* Logo S@2x.png */; };
+		4B48710F22F41DF5000293D2 /* TextField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E822F41DF5000293D2 /* TextField@2x.png */; };
+		4B48711022F41DF5000293D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870E922F41DF5000293D2 /* Default.png */; };
+		4B48711122F41DF5000293D2 /* ExitButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870EA22F41DF5000293D2 /* ExitButton@2x.png */; };
+		4B48711222F41DF5000293D2 /* Logo Joker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870EB22F41DF5000293D2 /* Logo Joker@2x.png */; };
+		4B48711322F41DF5000293D2 /* CellBackgroundSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870EC22F41DF5000293D2 /* CellBackgroundSelected.png */; };
+		4B48711422F41DF5000293D2 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870ED22F41DF5000293D2 /* Icon-Small@2x.png */; };
+		4B48711522F41DF5000293D2 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870EE22F41DF5000293D2 /* Button.png */; };
+		4B48711622F41DF5000293D2 /* CellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4870EF22F41DF5000293D2 /* CellBackground.png */; };
+		4B48711822F4223E000293D2 /* Action_Man.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B48711722F4223E000293D2 /* Action_Man.ttf */; };
+		4B48711B22F422A6000293D2 /* UIFont+SnapAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48711A22F422A6000293D2 /* UIFont+SnapAdditions.m */; };
+		4B48711F22F428B5000293D2 /* UIButton+SnapAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48711E22F428B5000293D2 /* UIButton+SnapAdditions.m */; };
+		4B48712322F4339B000293D2 /* HostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48712122F4339A000293D2 /* HostViewController.m */; };
+		4B48712422F4339B000293D2 /* HostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B48712222F4339A000293D2 /* HostViewController.xib */; };
+		4B48712A22F433E2000293D2 /* MatchmakingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48712722F433E1000293D2 /* MatchmakingClient.m */; };
+		4B48712B22F433E2000293D2 /* MatchmakingServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48712822F433E1000293D2 /* MatchmakingServer.m */; };
+		4B48713022F43ECF000293D2 /* JoinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B48712D22F43ECE000293D2 /* JoinViewController.xib */; };
+		4B48713122F43ECF000293D2 /* JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B48712E22F43ECE000293D2 /* JoinViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B4870AA22F41D52000293D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B48708922F41D4F000293D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B48709022F41D50000293D2;
+			remoteInfo = Snap;
+		};
+		4B4870B522F41D52000293D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B48708922F41D4F000293D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B48709022F41D50000293D2;
+			remoteInfo = Snap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B48709122F41D50000293D2 /* Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B48709422F41D50000293D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B48709522F41D50000293D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B48709722F41D50000293D2 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4B48709822F41D50000293D2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4B48709D22F41D52000293D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B4870A022F41D52000293D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B4870A222F41D52000293D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4870A322F41D52000293D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B4870A922F41D52000293D2 /* SnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4870AD22F41D52000293D2 /* SnapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapTests.m; sourceTree = "<group>"; };
+		4B4870AF22F41D52000293D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4870B422F41D52000293D2 /* SnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4870B822F41D52000293D2 /* SnapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapUITests.m; sourceTree = "<group>"; };
+		4B4870BA22F41D52000293D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4870C622F41DE1000293D2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4B4870C922F41DF5000293D2 /* ExitButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ExitButtonPressed@2x.png"; sourceTree = "<group>"; };
+		4B4870CA22F41DF5000293D2 /* Felt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Felt@2x.png"; sourceTree = "<group>"; };
+		4B4870CB22F41DF5000293D2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4B4870CC22F41DF5000293D2 /* CellBackgroundSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CellBackgroundSelected@2x.png"; sourceTree = "<group>"; };
+		4B4870CD22F41DF5000293D2 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		4B4870CE22F41DF5000293D2 /* Logo N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo N@2x.png"; sourceTree = "<group>"; };
+		4B4870CF22F41DF5000293D2 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		4B4870D022F41DF5000293D2 /* ButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonPressed@2x.png"; sourceTree = "<group>"; };
+		4B4870D122F41DF5000293D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4B4870D222F41DF5000293D2 /* TableViewBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableViewBorder.png; sourceTree = "<group>"; };
+		4B4870D322F41DF5000293D2 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		4B4870D422F41DF5000293D2 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		4B4870D522F41DF5000293D2 /* ExitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExitButton.png; sourceTree = "<group>"; };
+		4B4870D622F41DF5000293D2 /* TableViewBorder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewBorder@2x.png"; sourceTree = "<group>"; };
+		4B4870D722F41DF5000293D2 /* Logo N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo N.png"; sourceTree = "<group>"; };
+		4B4870D822F41DF5000293D2 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		4B4870D922F41DF5000293D2 /* Logo P@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo P@2x.png"; sourceTree = "<group>"; };
+		4B4870DA22F41DF5000293D2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4B4870DB22F41DF5000293D2 /* Logo A@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo A@2x.png"; sourceTree = "<group>"; };
+		4B4870DC22F41DF5000293D2 /* Felt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Felt.png; sourceTree = "<group>"; };
+		4B4870DD22F41DF5000293D2 /* ExitButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExitButtonPressed.png; sourceTree = "<group>"; };
+		4B4870DE22F41DF5000293D2 /* Logo A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo A.png"; sourceTree = "<group>"; };
+		4B4870DF22F41DF5000293D2 /* Logo Joker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo Joker.png"; sourceTree = "<group>"; };
+		4B4870E022F41DF5000293D2 /* Logo S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo S.png"; sourceTree = "<group>"; };
+		4B4870E122F41DF5000293D2 /* TextField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextField.png; sourceTree = "<group>"; };
+		4B4870E222F41DF5000293D2 /* Logo P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo P.png"; sourceTree = "<group>"; };
+		4B4870E322F41DF5000293D2 /* CellBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CellBackground@2x.png"; sourceTree = "<group>"; };
+		4B4870E422F41DF5000293D2 /* ButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonPressed.png; sourceTree = "<group>"; };
+		4B4870E522F41DF5000293D2 /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button@2x.png"; sourceTree = "<group>"; };
+		4B4870E622F41DF5000293D2 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		4B4870E722F41DF5000293D2 /* Logo S@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo S@2x.png"; sourceTree = "<group>"; };
+		4B4870E822F41DF5000293D2 /* TextField@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextField@2x.png"; sourceTree = "<group>"; };
+		4B4870E922F41DF5000293D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4B4870EA22F41DF5000293D2 /* ExitButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ExitButton@2x.png"; sourceTree = "<group>"; };
+		4B4870EB22F41DF5000293D2 /* Logo Joker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo Joker@2x.png"; sourceTree = "<group>"; };
+		4B4870EC22F41DF5000293D2 /* CellBackgroundSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellBackgroundSelected.png; sourceTree = "<group>"; };
+		4B4870ED22F41DF5000293D2 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		4B4870EE22F41DF5000293D2 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		4B4870EF22F41DF5000293D2 /* CellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellBackground.png; sourceTree = "<group>"; };
+		4B48711722F4223E000293D2 /* Action_Man.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Action_Man.ttf; sourceTree = SOURCE_ROOT; };
+		4B48711922F422A6000293D2 /* UIFont+SnapAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+SnapAdditions.h"; sourceTree = "<group>"; };
+		4B48711A22F422A6000293D2 /* UIFont+SnapAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SnapAdditions.m"; sourceTree = "<group>"; };
+		4B48711D22F428B5000293D2 /* UIButton+SnapAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SnapAdditions.h"; sourceTree = "<group>"; };
+		4B48711E22F428B5000293D2 /* UIButton+SnapAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SnapAdditions.m"; sourceTree = "<group>"; };
+		4B48712022F4339A000293D2 /* HostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostViewController.h; sourceTree = "<group>"; };
+		4B48712122F4339A000293D2 /* HostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostViewController.m; sourceTree = "<group>"; };
+		4B48712222F4339A000293D2 /* HostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HostViewController.xib; sourceTree = "<group>"; };
+		4B48712622F433E1000293D2 /* MatchmakingServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingServer.h; sourceTree = "<group>"; };
+		4B48712722F433E1000293D2 /* MatchmakingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchmakingClient.m; sourceTree = "<group>"; };
+		4B48712822F433E1000293D2 /* MatchmakingServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchmakingServer.m; sourceTree = "<group>"; };
+		4B48712922F433E1000293D2 /* MatchmakingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchmakingClient.h; sourceTree = "<group>"; };
+		4B48712C22F43412000293D2 /* Snap-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Snap-Prefix.pch"; sourceTree = "<group>"; };
+		4B48712D22F43ECE000293D2 /* JoinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinViewController.xib; sourceTree = "<group>"; };
+		4B48712E22F43ECE000293D2 /* JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinViewController.m; sourceTree = "<group>"; };
+		4B48712F22F43ECE000293D2 /* JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B48708E22F41D50000293D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4870A622F41D52000293D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4870B122F41D52000293D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B48708822F41D4F000293D2 = {
+			isa = PBXGroup;
+			children = (
+				4B48709322F41D50000293D2 /* Snap */,
+				4B4870AC22F41D52000293D2 /* SnapTests */,
+				4B4870B722F41D52000293D2 /* SnapUITests */,
+				4B48709222F41D50000293D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B48709222F41D50000293D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B48709122F41D50000293D2 /* Snap.app */,
+				4B4870A922F41D52000293D2 /* SnapTests.xctest */,
+				4B4870B422F41D52000293D2 /* SnapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B48709322F41D50000293D2 /* Snap */ = {
+			isa = PBXGroup;
+			children = (
+				4B48712522F433CC000293D2 /* Networking */,
+				4B48711722F4223E000293D2 /* Action_Man.ttf */,
+				4B4870C822F41DF5000293D2 /* Images */,
+				4B48709422F41D50000293D2 /* AppDelegate.h */,
+				4B48709522F41D50000293D2 /* AppDelegate.m */,
+				4B48709722F41D50000293D2 /* MainViewController.h */,
+				4B48709822F41D50000293D2 /* MainViewController.m */,
+				4B4870C622F41DE1000293D2 /* MainViewController.xib */,
+				4B48712022F4339A000293D2 /* HostViewController.h */,
+				4B48712122F4339A000293D2 /* HostViewController.m */,
+				4B48712222F4339A000293D2 /* HostViewController.xib */,
+				4B48712F22F43ECE000293D2 /* JoinViewController.h */,
+				4B48712E22F43ECE000293D2 /* JoinViewController.m */,
+				4B48712D22F43ECE000293D2 /* JoinViewController.xib */,
+				4B48709D22F41D52000293D2 /* Assets.xcassets */,
+				4B48709F22F41D52000293D2 /* LaunchScreen.storyboard */,
+				4B4870A222F41D52000293D2 /* Info.plist */,
+				4B48712C22F43412000293D2 /* Snap-Prefix.pch */,
+				4B4870A322F41D52000293D2 /* main.m */,
+				4B48711C22F422D4000293D2 /* Categories */,
+			);
+			path = Snap;
+			sourceTree = "<group>";
+		};
+		4B4870AC22F41D52000293D2 /* SnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B4870AD22F41D52000293D2 /* SnapTests.m */,
+				4B4870AF22F41D52000293D2 /* Info.plist */,
+			);
+			path = SnapTests;
+			sourceTree = "<group>";
+		};
+		4B4870B722F41D52000293D2 /* SnapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B4870B822F41D52000293D2 /* SnapUITests.m */,
+				4B4870BA22F41D52000293D2 /* Info.plist */,
+			);
+			path = SnapUITests;
+			sourceTree = "<group>";
+		};
+		4B4870C822F41DF5000293D2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4B4870EE22F41DF5000293D2 /* Button.png */,
+				4B4870E522F41DF5000293D2 /* Button@2x.png */,
+				4B4870E422F41DF5000293D2 /* ButtonPressed.png */,
+				4B4870D022F41DF5000293D2 /* ButtonPressed@2x.png */,
+				4B4870EF22F41DF5000293D2 /* CellBackground.png */,
+				4B4870E322F41DF5000293D2 /* CellBackground@2x.png */,
+				4B4870EC22F41DF5000293D2 /* CellBackgroundSelected.png */,
+				4B4870CC22F41DF5000293D2 /* CellBackgroundSelected@2x.png */,
+				4B4870E922F41DF5000293D2 /* Default.png */,
+				4B4870D122F41DF5000293D2 /* Default@2x.png */,
+				4B4870D522F41DF5000293D2 /* ExitButton.png */,
+				4B4870EA22F41DF5000293D2 /* ExitButton@2x.png */,
+				4B4870DD22F41DF5000293D2 /* ExitButtonPressed.png */,
+				4B4870C922F41DF5000293D2 /* ExitButtonPressed@2x.png */,
+				4B4870DC22F41DF5000293D2 /* Felt.png */,
+				4B4870CA22F41DF5000293D2 /* Felt@2x.png */,
+				4B4870D422F41DF5000293D2 /* Icon-72.png */,
+				4B4870D822F41DF5000293D2 /* Icon-72@2x.png */,
+				4B4870E622F41DF5000293D2 /* Icon-Small-50.png */,
+				4B4870D322F41DF5000293D2 /* Icon-Small-50@2x.png */,
+				4B4870CF22F41DF5000293D2 /* Icon-Small.png */,
+				4B4870ED22F41DF5000293D2 /* Icon-Small@2x.png */,
+				4B4870CB22F41DF5000293D2 /* Icon.png */,
+				4B4870DA22F41DF5000293D2 /* Icon@2x.png */,
+				4B4870CD22F41DF5000293D2 /* iTunesArtwork */,
+				4B4870DE22F41DF5000293D2 /* Logo A.png */,
+				4B4870DB22F41DF5000293D2 /* Logo A@2x.png */,
+				4B4870DF22F41DF5000293D2 /* Logo Joker.png */,
+				4B4870EB22F41DF5000293D2 /* Logo Joker@2x.png */,
+				4B4870D722F41DF5000293D2 /* Logo N.png */,
+				4B4870CE22F41DF5000293D2 /* Logo N@2x.png */,
+				4B4870E222F41DF5000293D2 /* Logo P.png */,
+				4B4870D922F41DF5000293D2 /* Logo P@2x.png */,
+				4B4870E022F41DF5000293D2 /* Logo S.png */,
+				4B4870E722F41DF5000293D2 /* Logo S@2x.png */,
+				4B4870D222F41DF5000293D2 /* TableViewBorder.png */,
+				4B4870D622F41DF5000293D2 /* TableViewBorder@2x.png */,
+				4B4870E122F41DF5000293D2 /* TextField.png */,
+				4B4870E822F41DF5000293D2 /* TextField@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4B48711C22F422D4000293D2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4B48711922F422A6000293D2 /* UIFont+SnapAdditions.h */,
+				4B48711A22F422A6000293D2 /* UIFont+SnapAdditions.m */,
+				4B48711D22F428B5000293D2 /* UIButton+SnapAdditions.h */,
+				4B48711E22F428B5000293D2 /* UIButton+SnapAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4B48712522F433CC000293D2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4B48712922F433E1000293D2 /* MatchmakingClient.h */,
+				4B48712722F433E1000293D2 /* MatchmakingClient.m */,
+				4B48712622F433E1000293D2 /* MatchmakingServer.h */,
+				4B48712822F433E1000293D2 /* MatchmakingServer.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B48709022F41D50000293D2 /* Snap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4870BD22F41D52000293D2 /* Build configuration list for PBXNativeTarget "Snap" */;
+			buildPhases = (
+				4B48708D22F41D50000293D2 /* Sources */,
+				4B48708E22F41D50000293D2 /* Frameworks */,
+				4B48708F22F41D50000293D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snap;
+			productName = Snap;
+			productReference = 4B48709122F41D50000293D2 /* Snap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B4870A822F41D52000293D2 /* SnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4870C022F41D52000293D2 /* Build configuration list for PBXNativeTarget "SnapTests" */;
+			buildPhases = (
+				4B4870A522F41D52000293D2 /* Sources */,
+				4B4870A622F41D52000293D2 /* Frameworks */,
+				4B4870A722F41D52000293D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4870AB22F41D52000293D2 /* PBXTargetDependency */,
+			);
+			name = SnapTests;
+			productName = SnapTests;
+			productReference = 4B4870A922F41D52000293D2 /* SnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B4870B322F41D52000293D2 /* SnapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4870C322F41D52000293D2 /* Build configuration list for PBXNativeTarget "SnapUITests" */;
+			buildPhases = (
+				4B4870B022F41D52000293D2 /* Sources */,
+				4B4870B122F41D52000293D2 /* Frameworks */,
+				4B4870B222F41D52000293D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4870B622F41D52000293D2 /* PBXTargetDependency */,
+			);
+			name = SnapUITests;
+			productName = SnapUITests;
+			productReference = 4B4870B422F41D52000293D2 /* SnapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B48708922F41D4F000293D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "张俊涛";
+				TargetAttributes = {
+					4B48709022F41D50000293D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4B4870A822F41D52000293D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4B48709022F41D50000293D2;
+					};
+					4B4870B322F41D52000293D2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4B48709022F41D50000293D2;
+					};
+				};
+			};
+			buildConfigurationList = 4B48708C22F41D4F000293D2 /* Build configuration list for PBXProject "Snap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B48708822F41D4F000293D2;
+			productRefGroup = 4B48709222F41D50000293D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B48709022F41D50000293D2 /* Snap */,
+				4B4870A822F41D52000293D2 /* SnapTests */,
+				4B4870B322F41D52000293D2 /* SnapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B48708F22F41D50000293D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4870F822F41DF5000293D2 /* Default@2x.png in Resources */,
+				4B48710622F41DF5000293D2 /* Logo Joker.png in Resources */,
+				4B48711522F41DF5000293D2 /* Button.png in Resources */,
+				4B48710722F41DF5000293D2 /* Logo S.png in Resources */,
+				4B48712422F4339B000293D2 /* HostViewController.xib in Resources */,
+				4B4870F322F41DF5000293D2 /* CellBackgroundSelected@2x.png in Resources */,
+				4B4870FA22F41DF5000293D2 /* Icon-Small-50@2x.png in Resources */,
+				4B4870F222F41DF5000293D2 /* Icon.png in Resources */,
+				4B48710C22F41DF5000293D2 /* Button@2x.png in Resources */,
+				4B48710422F41DF5000293D2 /* ExitButtonPressed.png in Resources */,
+				4B4870FE22F41DF5000293D2 /* Logo N.png in Resources */,
+				4B48710322F41DF5000293D2 /* Felt.png in Resources */,
+				4B48711622F41DF5000293D2 /* CellBackground.png in Resources */,
+				4B4870F922F41DF5000293D2 /* TableViewBorder.png in Resources */,
+				4B4870A122F41D52000293D2 /* LaunchScreen.storyboard in Resources */,
+				4B4870F122F41DF5000293D2 /* Felt@2x.png in Resources */,
+				4B48711422F41DF5000293D2 /* Icon-Small@2x.png in Resources */,
+				4B4870FC22F41DF5000293D2 /* ExitButton.png in Resources */,
+				4B48713022F43ECF000293D2 /* JoinViewController.xib in Resources */,
+				4B48710522F41DF5000293D2 /* Logo A.png in Resources */,
+				4B48710A22F41DF5000293D2 /* CellBackground@2x.png in Resources */,
+				4B4870F522F41DF5000293D2 /* Logo N@2x.png in Resources */,
+				4B4870F022F41DF5000293D2 /* ExitButtonPressed@2x.png in Resources */,
+				4B4870C722F41DE1000293D2 /* MainViewController.xib in Resources */,
+				4B48711022F41DF5000293D2 /* Default.png in Resources */,
+				4B48710922F41DF5000293D2 /* Logo P.png in Resources */,
+				4B4870FD22F41DF5000293D2 /* TableViewBorder@2x.png in Resources */,
+				4B48711122F41DF5000293D2 /* ExitButton@2x.png in Resources */,
+				4B4870FF22F41DF5000293D2 /* Icon-72@2x.png in Resources */,
+				4B4870F722F41DF5000293D2 /* ButtonPressed@2x.png in Resources */,
+				4B4870FB22F41DF5000293D2 /* Icon-72.png in Resources */,
+				4B48710D22F41DF5000293D2 /* Icon-Small-50.png in Resources */,
+				4B48710B22F41DF5000293D2 /* ButtonPressed.png in Resources */,
+				4B48711322F41DF5000293D2 /* CellBackgroundSelected.png in Resources */,
+				4B48711222F41DF5000293D2 /* Logo Joker@2x.png in Resources */,
+				4B48710222F41DF5000293D2 /* Logo A@2x.png in Resources */,
+				4B48710122F41DF5000293D2 /* Icon@2x.png in Resources */,
+				4B48711822F4223E000293D2 /* Action_Man.ttf in Resources */,
+				4B48709E22F41D52000293D2 /* Assets.xcassets in Resources */,
+				4B4870F622F41DF5000293D2 /* Icon-Small.png in Resources */,
+				4B48710F22F41DF5000293D2 /* TextField@2x.png in Resources */,
+				4B48710E22F41DF5000293D2 /* Logo S@2x.png in Resources */,
+				4B48710822F41DF5000293D2 /* TextField.png in Resources */,
+				4B4870F422F41DF5000293D2 /* iTunesArtwork in Resources */,
+				4B48710022F41DF5000293D2 /* Logo P@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4870A722F41D52000293D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4870B222F41D52000293D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B48708D22F41D50000293D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B48712322F4339B000293D2 /* HostViewController.m in Sources */,
+				4B48713122F43ECF000293D2 /* JoinViewController.m in Sources */,
+				4B48712B22F433E2000293D2 /* MatchmakingServer.m in Sources */,
+				4B48709922F41D50000293D2 /* MainViewController.m in Sources */,
+				4B4870A422F41D52000293D2 /* main.m in Sources */,
+				4B48711B22F422A6000293D2 /* UIFont+SnapAdditions.m in Sources */,
+				4B48711F22F428B5000293D2 /* UIButton+SnapAdditions.m in Sources */,
+				4B48712A22F433E2000293D2 /* MatchmakingClient.m in Sources */,
+				4B48709622F41D50000293D2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4870A522F41D52000293D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4870AE22F41D52000293D2 /* SnapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4870B022F41D52000293D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4870B922F41D52000293D2 /* SnapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B4870AB22F41D52000293D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B48709022F41D50000293D2 /* Snap */;
+			targetProxy = 4B4870AA22F41D52000293D2 /* PBXContainerItemProxy */;
+		};
+		4B4870B622F41D52000293D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B48709022F41D50000293D2 /* Snap */;
+			targetProxy = 4B4870B522F41D52000293D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B48709F22F41D52000293D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4870A022F41D52000293D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B4870BB22F41D52000293D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B4870BC22F41D52000293D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B4870BE22F41D52000293D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Snap/Snap-Prefix.pch";
+				INFOPLIST_FILE = Snap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.Snap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B4870BF22F41D52000293D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Snap/Snap-Prefix.pch";
+				INFOPLIST_FILE = Snap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.Snap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B4870C122F41D52000293D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.SnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap.app/Snap";
+			};
+			name = Debug;
+		};
+		4B4870C222F41D52000293D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.SnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap.app/Snap";
+			};
+			name = Release;
+		};
+		4B4870C422F41D52000293D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.SnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snap;
+			};
+			name = Debug;
+		};
+		4B4870C522F41D52000293D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.SnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B48708C22F41D4F000293D2 /* Build configuration list for PBXProject "Snap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4870BB22F41D52000293D2 /* Debug */,
+				4B4870BC22F41D52000293D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4870BD22F41D52000293D2 /* Build configuration list for PBXNativeTarget "Snap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4870BE22F41D52000293D2 /* Debug */,
+				4B4870BF22F41D52000293D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4870C022F41D52000293D2 /* Build configuration list for PBXNativeTarget "SnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4870C122F41D52000293D2 /* Debug */,
+				4B4870C222F41D52000293D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4870C322F41D52000293D2 /* Build configuration list for PBXNativeTarget "SnapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4870C422F41D52000293D2 /* Debug */,
+				4B4870C522F41D52000293D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B48708922F41D4F000293D2 /* Project object */;
+}
